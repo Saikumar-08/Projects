@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(37, 37, 107);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            height: 400px;
+            width: 750px;
+
+        }
+
+        #rightbox {
+
+            width: 50%;
+            background-image: url(./block.jpg);
+            background-size: cover;
+        }
+
+        #leftbox {
+
+            width: 50%;
+            background-color: rgb(59, 23, 59);
+            color: white;
+            gap: 40px;
+
+        }
+
+        .heading-1 h2 {
+            height: 30%;
+            margin: 40px;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .para-2 p {
+            height: 30%;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .bottom ul {
+
+
+            align-items: center;
+            left: 30px;
+            bottom: 0px;
+            gap: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <div id="leftbox">
+                <div class="heading-1">
+                    <h2>Get insights that help your business grow</h2>
+                </div>
+                <div class="para-2">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa consectetur non exercitationem
+                        voluptatum accusamus voluptate commodi voluptatem! Ut excepturi fuga commodi ad magnam rem
+                        recusandae, consequuntur at deserunt aperiam similique?</p>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li>10K+</li>
+                        <li>214</li>
+                        <li>12M+</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightbox"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
